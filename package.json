@@ -1,0 +1,16 @@
+{
+  "name": "easymath",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Learn math from zero to advanced, with an optional AI helper.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js && node test-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0"
+  }
+}
